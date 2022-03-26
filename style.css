@@ -458,6 +458,9 @@ footer .container .footer-box:nth-child(2) ul li .icon {
 footer .container .footer-box:nth-child(2) ul li .icon ion-icon {
     font-size:20px;
 }
+footer .container .footer-box:nth-child(3) ul li form {
+    position:relative;
+}
 footer .container .footer-box:nth-child(3) ul li form input {
     width: 100%;
     padding: 10px;
@@ -465,6 +468,7 @@ footer .container .footer-box:nth-child(3) ul li form input {
     outline: none;
     background: transparent;
     border: 2px solid #fff;
+    color:#fff;
 }
 footer .container .footer-box:nth-child(3) ul li form button {
     width: 200px;
@@ -472,5 +476,39 @@ footer .container .footer-box:nth-child(3) ul li form button {
     background:#fff;
     outline:none;
     margin-top:40px;
-    background:
+    
+}
+
+
+
+/* active ui */
+
+content .container #list-products .product .size .item.active {
+    background:red !important;
+}
+footer .container .footer-box:nth-child(3) ul li form.success:before {
+     content:"";
+    width: 10px;
+    height: 20px;
+    position:absolute;
+    background-image:url('images/success.png');
+    background-size: cover;
+    right:10px;
+    top:6px;
+    width: 30px;
+    height: 30px;
+
+}
+footer .container .footer-box:nth-child(3) ul li form.error:before {
+    content:"";
+    width: 10px;
+    height: 20px;
+    position:absolute;
+    background-image:url('images/error.png');
+    background-size: cover;
+    right:10px;
+    top:6px;
+    width: 30px;
+    height: 30px;
+    
 }
